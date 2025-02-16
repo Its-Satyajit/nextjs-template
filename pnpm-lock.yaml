@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@better-fetch/fetch':
         specifier: ^1.1.12
-        version: 1.1.12
+        version: 1.1.13
       '@hookform/resolvers':
         specifier: ^3.10.0
         version: 3.10.0(react-hook-form@7.54.2(react@19.0.0))
@@ -213,6 +213,9 @@ packages:
 
   '@better-fetch/fetch@1.1.12':
     resolution: {integrity: sha512-B3bfloI/2UBQWIATRN6qmlORrvx3Mp0kkNjmXLv0b+DtbtR+pP4/I5kQA/rDUv+OReLywCCldf6co4LdDmh8JA==}
+
+  '@better-fetch/fetch@1.1.13':
+    resolution: {integrity: sha512-C1NtueyCx6tqVITOoxScEEQyFn0R0dpqQBHsuDBhRACa+sl7rY9oirCNpRWNnYu7FmVwTAY9BHbeRdvqSJI5Og==}
 
   '@blakeembrey/deque@1.0.5':
     resolution: {integrity: sha512-6xnwtvp9DY1EINIKdTfvfeAtCYw4OqBZJhtiqkT3ivjnEfa25VQ3TsKvaFfKm8MyGIEfE95qLe+bNEt3nB0Ylg==}
@@ -3314,6 +3317,8 @@ snapshots:
 
   '@better-fetch/fetch@1.1.12': {}
 
+  '@better-fetch/fetch@1.1.13': {}
+
   '@blakeembrey/deque@1.0.5': {}
 
   '@blakeembrey/template@1.2.0': {}
@@ -4376,7 +4381,7 @@ snapshots:
 
   better-call@0.3.3:
     dependencies:
-      '@better-fetch/fetch': 1.1.12
+      '@better-fetch/fetch': 1.1.13
       rou3: 0.5.1
       uncrypto: 0.1.3
       zod: 3.24.2
